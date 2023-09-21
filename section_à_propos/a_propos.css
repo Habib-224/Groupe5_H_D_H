@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: -5px;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+.first_image{
+    position: relative;
+    left: -27px;
+    width: 100%; 
+}
+
+.second_image{
+    width: 100%; 
+
+}
