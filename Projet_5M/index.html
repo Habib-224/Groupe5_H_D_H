@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +10,28 @@
 </head>
 
 <body>
+    <!--------------Debut Section Container------------->
     <div class="container">
+        <!------------Debut Section Container Menu------------>
         <div class="container_Menu">
             <div class="Menu">
                 <ul>
                     <li>Impact <span class="dot">.</span></li>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Portfolio</li>
-                    <li>Team</li>
-                    <li>Blog</li>
+                    <li id="Mon_Home">Home</li>
+                    <li><a href="#Mon_About">About</a></li>
+                    <li><a href="#Mon_Services">Services</a></li>
+                    <li><a href="#Mon_Portfolio">Portfolio</a></li>
+                    <li><a href="#Ma_Team">Team</a></li>
+                    <li><a href="#Mon_Blog">Blog</a></li>
                     <li>Drop Down<i class="fa-solid fa-angle-down" id=""></i></li>
                     <li>Contact</li>
+                    <li><i class="fa-solid fa-bars"></i></li>
                 </ul>
             </div>
 
+            <!------------- Debut Section Container Blog-------->
             <div class="container_blog">
+                
                 <div class="contenu_text">
                     <h1>Welcome to impact</h1><br>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ab, facilis laboriosam, !</p>
@@ -40,7 +44,11 @@
                     <img src="image/page1-removebg-preview.png" alt="">
                 </div>
             </div>
+            <!------------- Fin Section Container Blog-------->
         </div>
+        <!------------------Fin Section Container Menu--------------->
+
+        <!---------------Debut Section Card------------->
         <div class="section_card">
             <div class="card1">
                 <i class="fa-solid fa-tv"></i>
@@ -55,23 +63,54 @@
                 <p>Lorem Ipsum</p>
             </div>
             <div class="card1">
-                <!-- <i class="bi bi-command"></i> -->
                 <i class="fa-regular fa-gem"></i>
                 <p>Lorem Ipsum</p>
             </div>
         </div>
+        <!---------------Fin Section Card------------->
 
-        <!-- fin section menu---------- -->
+        <br><br><br><br>
 
-        <br><br><br>
+        
+        <!-------------- Debut Section Propos -------------------->
         <div class="Menu_filtre">
-            <h1>Our Services</h1>
+            <h1 id="Mon_About">Section A propos</h1>
+        </div>
+        <div class="container_Propos">
+            <div class="first_colone_Propos">
+                <h4>voluptatem disignimos provident quasi corporis</h4>
+                <img class="first_image_Propos" src="image/Propos/a propos1.PNG" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Amet, error! Facere inventore beatae
+                    consequatur eos <br>architecto vitae eveniet aliquam laborum, ahhccusium<br>
+                    <br> incidunt sed nostrum nam quaer voluptatibus delectus<br> Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit<br> Commodi ea labore voluptatem amdefiuns dolorum .
+                </p>
+            </div>
+        
+            <div class="second_colone_Propos">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Fugiat praesentium magni laborios.</p>
+                <p><i class="fa-solid fa-circle-check" style="color: #2e9935;"></i> &nbsp;Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. </p>
+                <p><i class="fa-solid fa-circle-check" style="color: #2e9935;"></i> &nbsp;Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. </p>
+                <p><i class="fa-solid fa-circle-check" style="color: #2e9935;"></i> &nbsp;Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit dolor sit amet consectetur </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolor iusto inventore, incidunt, ratione, </p>
+                <img class="second_image" src="image/Propos/a propos 2.PNG" alt="">
+            </div>
+        </div>
+        <!-------------- Fin Section Propos -------------------->
+        <br><br><br>
+        <!---------------Debut Section Our Services------------->
+        <div class="Menu_filtre">
+            <h1 id="Mon_Services">Our Services</h1>
             <!-- <hr width="5%"> -->
             <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
                 dolore earum</p>
         </div>
 
-        <div class="container-grid-portolio">
+        <!-----------Debut Container de 6 Portfolio----------->
+        <div class="container-grid-section" >
             <div class="card1_section">
                 <span><i class="fa-solid fa-wave-square"></i></span>
                 <br><br>
@@ -105,8 +144,8 @@
                 </div>
             </div>
             <div class="card1_section">
-                <span><i class="fa-solid fa-wave-square"></i></span>
-                <h3>Nesiunt Mete</h3><br><br>
+                <span><i class="fa-solid fa-wave-square"></i></span><br><br>
+                <h3>Nesiunt Mete</h3>
                 <hr style="width: 50%; margin-left: 2px;">
                 <br>
                 <p>Lorem ipsum dolor sit amet, consectetur Nulla culpa ab impedit veritatis porro unde.</p>
@@ -133,15 +172,14 @@
                 </div>
             </div>
         </div>
-        <!-- Fin section Section -->
+        <!----------------- Fin section Our Service--------------->
 
-        <br><br><br>
-        <!-- Debut section Portfolio -->
-        <div class="Menu_filtre">
+        <br><br><br><br>
+        <!-----------Debut section Portfolio ------------>
+        <div class="Menu_filtre" id="Mon_Portfolio">
             <h1>Portfolio</h1>
             <!-- <hr width="5%"> -->
-            <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
-                dolore earum</p>
+            <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis doloremdolore earum</p>
         </div>
         <div class="Menu_filtre">
             <ul>
@@ -152,9 +190,13 @@
                 <li>Books</li>
             </ul>
         </div>
+        <!-- -------------Debut Section grid portfolio----------->
         <div class="container-grid-portolio">
             <div class="card1_Portfolio">
-                <img src="image/portfolio/Capture.PNG" alt="">
+                <div>
+                    <img src="image/portfolio/Capture.PNG">
+                </div>
+               
                 <div class="read-more">
                     <span>App 1</span><br>
                     <span>Lorem ipsum dolor, sit amet</span>
@@ -201,15 +243,16 @@
                 </div>
             </div>
         </div>
-        <!-- Fin Portfolio Section -->
+        <!-- -------------Debut Section grid portfolio----------->
+        <!-------- Fin Portfolio Section -------------->
 
-        <br><br><br>
-        <!-- Debut section Team -->
-        <div class="Menu_filtre">
+        <br><br><br><br>
+
+        <!--------------Debut section Team --------------->
+        <div class="Menu_filtre" id="Ma_Team">
             <h1>Our Team</h1>
             <!-- <hr width="5%"> -->
-            <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
-                dolore earum</p>
+            <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
         </div>
         <div class="container-grid-Team">
             <div class="card1_Team">
@@ -274,8 +317,202 @@
             </div>
         
         </div>
-        <!-- Fin section Team -->
+        <!------------- Fin section Team ------------->
+        <br><br><br>
+
+        <div class="Menu_filtre" id="Ma_Team">
+            <h1>Pricing</h1>
+            <!-- <hr width="5%"> -->
+            <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
+                dolore earum</p>
+        </div>
+        <!-- Debut Section Pricing -->
+        <section class="cartes">
+            <div class="carte">
+                <h4>Free plan</h4>
+                <div class="moncercle"><i class="fa-solid fa-cube" style="color: #fafdfa;"></i></div>
+                <p><span class="dollar">$</span> <span class="zero">0 </span>/ month</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p class="ligne_barre"><i class="fa-solid fa-xmark" style="color: #4d4e51;"></i> Lorem ipsum dolor sit amet
+                    consectetur</p>
+                <p class="ligne_barre"><i class="fa-solid fa-xmark" style="color: #4d4e51;"></i> Lorem ipsum dolor sit amet
+                    consectetur</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="carte">
+                <h4>Business plan</h4>
+                <div class="moncercle"><i class="fa-thin fa-plane-up" style="color: #f5f8fc;"></i></div>
+                <p><span class="dollar">$</span> <span class="zero">29 </span>/ month</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="carte">
+                <h4>Developer plan</h4>
+                <div class="moncercle"><i class="fa-thin fa-paper-plane" style="color: #f9fcfc;"></i></div>
+                <p><span class="dollar">$</span> <span class="zero">49 </span>/ month</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <p> <i class="fa-solid fa-check" style="color: #3dae45;"></i> Lorem ipsum dolor sit amet consectetur</p>
+                <button>Buy Now</button>
+            </div>
+        </section>
+        <!-- Fin Section Pricing -->
+        <br><br><br>
+
+        <!--------------Debut Section Faq--------------->
+        <div class="Menu_filtre" id="Ma_Team">
+            <h1>Section FAQ</h1>
+        </div>
+        <div class="container_faq">
+            <div class="gauche_faq">
+                <p class="p1_gauche_faq">Frenquently Asked</p>
+                <h4>Questions</h4>
+                <p class="p_gauche_faq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum quo similique, est
+                    ea incidunt placeat voluptatem</p>
+        
+            </div>
+        
+            <div class="droite_faq">
+                <p class="li1"> <span>1.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit ?<i
+                        class="fa-solid fa-chevron-down" style="color: #4f4f4f;"></i></p><br>
+                <p class="li1"><span>2.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit ?<i
+                        class="fa-solid fa-chevron-down" style="color: #4f4f4f;"></i></p><br>
+                <p class="li1"><span>3.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit ?<i
+                        class="fa-solid fa-chevron-down" style="color: #4f4f4f;"></i></p><br>
+                <p class="li1"><span>4.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit ?<i
+                        class="fa-solid fa-chevron-down" style="color: #4f4f4f;"></i></p><br>
+                <p class="li1"><span>5.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit ?<i
+                        class="fa-solid fa-chevron-down" style="color: #4f4f4f;"></i></p>
+            </div>
+        </div>
+
+        <!---------------Fin Section Faq---------------->
+        <br><br><br><br><br>
+        <!-- Debut section Blog-->
+        <div class="Menu_filtre" id="Mon_Blog">
+            <h1>Section Blog</h1>
+        </div>
+        <div class="container_blog1">
+            <div class="container-grid-blog1">
+                <div class="card1_blog">
+                    <img src="image/blog/image1.PNG" alt="">
+        
+                    <div class="read-more">
+                        <span class="text2">Politics</span><br><br>
+                        <span class="text1">Dolorum optio tempore voluptas dignissimos</span>
+                    </div>
+        
+                    <div class="rounded-image">
+                        <div class="r-image">
+                            <img src="image/blog/image4.PNG" alt="">
+                        </div>
+                        <div class="round-text">
+                            <span class="auteur">Marie Doe</span><br>
+                            <span class="auteur">Jan,1,2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1_blog">
+                    <img src="image/blog/image2.PNG" alt="">
+        
+                    <div class="read-more">
+                        <span class="text2">Sport</span><br><br>
+                        <span class="text1">Nisi magni odit consequatur autem nulla dolorem</span>
+                    </div>
+        
+                    <div class="rounded-image">
+                        <div class="r-image">
+                            <img src="image/blog/image5.PNG" alt="">
+                        </div>
+                        <div class="round-text">
+                            <span class="auteur">Alissa Mayer</span><br>
+                            <span class="auteur">Jan,5,2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1_blog">
+                    <img src="image/blog/image3.PNG" alt="">
+        
+                    <div class="read-more">
+                        <span class="text2">Entertainment</span><br><br>
+                        <span class="text1">Possimus soluta ut id suscipit ea ut in quo </span>
+                    </div>
+        
+                    <div class="rounded-image">
+                        <div class="r-image">
+                            <img src="image/blog/image6.PNG" alt="">
+                        </div>
+                        <div class="round-text">
+                            <span class="auteur">Mark Dower</span><br>
+                            <span class="auteur">Jan,22,2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin section Blog -->
+        <br><br><br>
+
+        <!-- <div class="footer">
+            <div class="info-contact">
+                <span>Impact</span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel hicpariatur sed corrupti molestias soluta illo
+                    adipisci totam dolore <br>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f "></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="#Mon_Home"><i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+            </div>
+        
+            <div class="userful-content">
+                <h4>Userful Links </h4>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Teams of Services </li>
+                    <li> Privacy Polity</li>
+                </ul>
+            </div>
+        
+            <div class="service-content">
+                <h4>Our services </h4>
+                <ul>
+                    <li>Web service </li>
+                    <li>Web Development </li>
+                    <li>Product Management</li>
+                    <li>Marketing </li>
+                    <li> Graphic Design</li>
+                </ul>
+            </div>
+        
+            <div class="contact-content">
+                <h4>Contact Us </h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel hic, <br>
+                    pariatur sed corrupti molestias soluta illo adipisci totam dolore <br>
+                    fugit labore iusto expedita minus voluptatibus quaerat! Molestias <br>
+                    consequatur cupiditate eaque.</p>
+            
+                <span>Phone :+1 555 956 562 63</span> <br>
+                <span>Email :example@gmail.com</span>
+            </div>
+            <div class="copyright">
+                <p>© copyright Impact All Rights Reserved <br>Design by BootstrapMade</p>
+            </div>
+        </div> -->
     </div>
+    <!------------------Fin Section Container------------->
 </body>
 
 </html>
