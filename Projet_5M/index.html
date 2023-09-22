@@ -14,9 +14,9 @@
     <div class="container">
         <!------------Debut Section Container Menu------------>
         <div class="container_Menu">
-            <div class="Menu">
+            <div class="Menu" id="Menuhome">
                 <ul>
-                    <li>Impact <span class="dot">.</span></li>
+                    <li><a href="">Impact</a> <span class="dot">.</span></li>
                     <li id="Mon_Home">Home</li>
                     <li><a href="#Mon_About">About</a></li>
                     <li><a href="#Mon_Services">Services</a></li>
@@ -25,9 +25,10 @@
                     <li><a href="#Mon_Blog">Blog</a></li>
                     <li>Drop Down<i class="fa-solid fa-angle-down" id=""></i></li>
                     <li>Contact</li>
-                    <li><i class="fa-solid fa-bars"></i></li>
+                    <li onclick="sidebaron()" ><i class="fa-solid fa-bars"></i></li>
                 </ul>
             </div>
+           
 
             <!------------- Debut Section Container Blog-------->
             <div class="container_blog">
@@ -46,6 +47,8 @@
             </div>
             <!------------- Fin Section Container Blog-------->
         </div>
+
+        
         <!------------------Fin Section Container Menu--------------->
 
         <!---------------Debut Section Card------------->
@@ -513,6 +516,41 @@
         </div> -->
     </div>
     <!------------------Fin Section Container------------->
-</body>
 
+    <!-- <script>
+         let compte = 0;
+        function sidebaron(){
+            const affiche =document.getElementById("affiche");
+            const Menuhome =document.getElementById("Menuhome");
+           
+            compte=compte+1;
+            console.log(compte);
+            if(compte%2!=0){
+                document.getElementById("Menuhome").style.backgroundColor="darkgray";
+                // document.getElementById("Menuhome").style.display="block";
+                document.getElementById("Menuhome").style.height="120px";
+                document.getElementById("Menuhome").style.transition="1.5s";
+                document.querySelector(".Menu ul li:nth-child(2)").style.display = "inline";
+                document.querySelector(".Menu ul li:nth-child(2)").style.display = "inline";
+                document.querySelector(".Menu ul li:nth-child(3)").style.display = "inline";
+                document.querySelector(".Menu ul li:nth-child(4)").style.display = "inline";
+                document.querySelector(".Menu ul li:nth-child(5)").style.display = "inline";
+                document.querySelector(".Menu ul li:nth-child(6)").style.display = "inline";
+                document.querySelector(".Menu ul li:nth-child(1)").style.display = "none";
+            }else{
+                document.getElementById("Menuhome").style.backgroundColor = "#1A9082";
+                // document.getElementById("Menuhome").style.display="block";
+                document.getElementById("Menuhome").style.height = "50px";
+                document.getElementById("Menuhome").style.transition = "1.5s";
+                document.querySelector(".Menu ul li:nth-child(2)").style.display = "none";
+                document.querySelector(".Menu ul li:nth-child(3)").style.display = "none";
+                document.querySelector(".Menu ul li:nth-child(4)").style.display = "none";
+                document.querySelector(".Menu ul li:nth-child(5)").style.display = "none";
+                document.querySelector(".Menu ul li:nth-child(6)").style.display = "none";
+                document.querySelector(".Menu ul li:nth-child(1)").style.display = "inline-block";
+  
+            }
+        }
+    </script> -->
+</body>
 </html>

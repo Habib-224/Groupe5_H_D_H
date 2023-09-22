@@ -162,6 +162,7 @@ body {
         display: block;
     }
 
+
    
 
     .contenu_text{
@@ -171,18 +172,16 @@ body {
 
     .container_Menu .Menu ul li:last-child{
         display: block;
+        margin-right: -100px;
     }
-    /* .contenu_text{
-        color: black;
-    } */
 
-    /* .btnvideo{
-        display: none;
-    } */
-
-
-
+    .container_Menu .Menu ul li:nth-child(1){
+        margin-left: 50px;
+        /* position: absolute;
+        left: 0; */
+    }
 }
+
 
 /*------------- Fin section Menu----------- */
 
@@ -264,6 +263,7 @@ body {
         /* padding-left: 20px; */
         padding-top: 25px;
     }
+
 
 }
 .card1_section i{
@@ -416,7 +416,7 @@ body {
     } */
    .container-grid-Team{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto ;
         justify-content: center;
         align-items: center;
         gap: 30px;
@@ -438,7 +438,7 @@ body {
     } */
     .container-grid-Team {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto ;
         justify-content: center;
         align-items: center;
         gap: 30px;
@@ -644,7 +644,6 @@ body {
 }
 
 @media only screen and (max-width: 1060px) {
-
     .cartes {
         display: grid;
         grid-template-columns: 50%;
@@ -713,10 +712,14 @@ body {
 
 .cartes .carte p {
     font-size: 13px;
-    margin-left: -60px;
+    text-align: center;
 }
 /* Fin Section Pricing */
 /* 
+
+
+
+
 
 /* Propos */
 .container_Propos {
